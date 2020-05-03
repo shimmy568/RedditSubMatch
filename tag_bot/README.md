@@ -4,13 +4,13 @@ Tag bot is designed to reply to posts that tag this bot with general information
 
 # Setup
 
-Create a file named `.env` in this directory with the following format:
+Create a file named `.config.json` in this directory with the following format:
 
 ```bash
-TAG_BOT_CLIENT_ID=""
-TAG_BOT_CLIENT_SECRET=""
-TAG_BOT_USERNAME=""
-TAG_BOT_PASSWORD=""
+{
+  "client_id": "<client_id_here>",
+  "client_secret": "<client_secret_here>"
+}
 ```
 
 Fill in the empty strings with the required information.
